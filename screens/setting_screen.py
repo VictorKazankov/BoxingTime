@@ -1,8 +1,8 @@
-from pages.base_page import Page
+from screens.base_screen import Screen
 from selenium.webdriver.common.by import By
 
 
-class SettingPage(Page):
+class SettingScreen(Screen):
 
     def open(self):
         pass

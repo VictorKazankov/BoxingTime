@@ -1,10 +1,10 @@
 from time import sleep
 
-from pages.base_page import Page
+from screens.base_screen import Screen
 from selenium.webdriver.common.by import By
 
 
-class TimePage(Page):
+class TimeScreen(Screen):
     START_BUTTON = (By.ID, "com.nulltree.roundbell:id/start_button")
     STOP_BUTTON = (By.ID, "com.nulltree.roundbell:id/stop_button")
     RESET_BUTTON = (By.ID, "com.nulltree.roundbell:id/reset_button")
